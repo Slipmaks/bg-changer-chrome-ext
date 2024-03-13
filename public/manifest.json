@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "name": "Background site changer",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "description": "Extension change any site background",
+  "permissions": ["scripting"],
+  "host_permissions": ["http://*/", "https://*/"],
+  "icons": {
+    "32": "icon32.png"
+  }
+}
